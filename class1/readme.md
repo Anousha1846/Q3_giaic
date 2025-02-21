@@ -144,13 +144,7 @@ print(f"Hello, {first_name} {last_name}!")
 ---
 
 ## 🎯 **Conclusion**  
-This guide provides a structured overview of Python basics, including Google Colab, Python's execution flow, data types, and operators. Keep practicing, and happy coding! 🚀🐍  
+This guide provides a structured overview of Python basics, including Google Colab, Python's execution flow, data types, and operators. Keep practicing! 🚀🐍  
 ```
 
-This is now properly formatted for your `README.md` file with:  
-✅ Clean headers & sections  
-✅ Tables for operators  
-✅ Code blocks for clarity  
-✅ Bullet points for readability  
 
-Let me know if you need any modifications! 🚀😃
