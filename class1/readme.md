@@ -1,6 +1,4 @@
-Here’s your properly formatted `README.md` file with Markdown styling for readability and presentation:  
 
-```md
 # Python Basics 🚀  
 
 ## **STEP 00: Google Colab**  
