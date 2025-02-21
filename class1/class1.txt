@@ -1,0 +1,77 @@
+============================================STEP 00_ Google Colab==============================================
+It will help in running Python in browser.
+Jupiter Notebook me Hm aone pythin k program ko different cells mein chala skte, code ko divide kr skte hain  
+
+-------------------------------------------------CPU, GPU, TPU-----------------------------------------------
+1.CPU[Central Processing Unit] ek time mein ek hi task krta ha , multiple kaam ek saath nh kr skta. (Sponge bob ki patty, dair me bnant ah lakn perfect bnata ha, UNIQUE patty bnata ha).
+2.GPU[Graphical Processing Unit] ek time me bht sare tasks kr skta ha lakn wo unique nh hote (Oggy ki hundereds of patties at a time). Parallel me kaam krta ha jldi jldi kaam hota.
+3.TPU[Tensor Processing Unit], ise srf ek kaam krna aata ha. Specifically advanced. used for making apna chat gpt.
+
+=======================================STEP 01_ Introduction To Python========================================
++ HIGH LEVEL LANGUAGE[human readable] + LOW LEVEL LANGUAGE[]  + MACHINE LANGUAGE[Binary]
++ Python is high-level, interpreted[Line by line code runs] programming language is a type of programming language that is designed to be easy for humans to read, write, and understand.
++ Python Interpretor converts python Code to binary.... it has three things: 1.Code edior se compilor me jata ha 2.Compiler_jo python k code ko byteCode(.pyc) me change krta ha. 2.PVM(Python Virtual Machine) byteCode ko binary me change krta ha iske baad code computer ko deta h or wo answer print kr k deta ha Operating System ko , the it provide it to hardware
+
+ + ByteCode hm ksi bhi perating system me chla skte hain [linix, mac , windows], ye process fast ha.
+ + PVM ktni memory kis varaible ko deni ha ye sb yahn decide hota ha.
+ + In Python, library modules are pre-written code collections that provide additional functionality.
+
+-----------------------------------------DATA TYPES--------------------------------
++ . Numeric Types
+✔ int – Integer (e.g., 10, -5)
+✔ float – Decimal numbers (e.g., 3.14, -2.5)
+✔ complex – Complex numbers (e.g., 3+4j)
+
+2. Sequence Types
+✔ str – String (e.g., "Hello", 'Python')
+✔ list – Ordered, mutable collection (e.g., [1, 2, 3])
+Eg: (fruits = ["Apple" , "mango" , "banana" , "grapes"]
+print( fruits[1:2] ) //mango___ Slicing-kahan se kahan tk chahiye.
+print( fruits[-1] ) // grapes ____ Slicing- negitive me list k last se chalega.)
+✔ tuple – Ordered, immutable collection (e.g., (1, 2, 3))
+✔ range – Sequence of numbers (e.g., range(5) → 0,1,2,3,4)
+
+3. Set Types
+✔ set – Unordered, unique items (e.g., {1, 2, 3})
+✔ frozenset – Immutable set (e.g., frozenset({1, 2, 3}))
+
+4. Mapping Type
+✔ dict – Key-value pairs (e.g., {"name": "John", "age": 25})
+
+5. Boolean Type
+✔ bool – Boolean values (True, False)
+
+6. Binary Types
+✔ bytes – Immutable sequence of bytes
+✔ bytearray – Mutable sequence of bytes
+✔ memoryview – Memory-efficient binary data access
+
+
+🔹 Mutable  → Can be changed (elements can be added/removed).
+🔹 Immutable → Cannot be changed after creation.
+
+----------------------------------------- CONCATINATION --------------------------------
+CONCATINATION srf string ki hi hoti ha, is lie final answer ki type string hi hogo hmesha
+🔹print (first_name + last_name ) 
+🔹Formatted String Literals[fString]: print (f"{first_name }{last_name}" )
+
+----------------------------------------- Line Break --------------------------------
+🔹[DOC STRING]""" """ lga kr line break krwate hain .
+🔹[\n] 
+🔹
+
++ In Python, the id() function returns the memory address of an object. The location (memory address) may change every time you run the program . hmare variables k naam basically un address ko replace krrhe hote hain.
+
+
+----------------------------------------- OPERATORS --------------------------------
+1. Arithmetic Operators (Perform mathematical operations)
+Operator	Description	Example (a = 10, b = 3)	Output
++	Addition	a + b	13
+-	Subtraction	a - b	7
+*	Multiplication	a * b	30
+/	Division (float)	a / b	3.33
+//	Floor Division	a // b	3
+%	Modulus (Remainder)	a % b	1
+**	Exponentiation	a ** b	1000
+
+
