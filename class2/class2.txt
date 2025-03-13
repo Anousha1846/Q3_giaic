@@ -1,0 +1,62 @@
+=================================== Byte Code =================================
+files transfer krne k lie bytes me safe krte hain ta ke efficiently unko transfer kr paen
+------------------------------bytes[immutable{unchangeble}]-------------------------------
+hr number or alphabet i-e character k lie alg alg defined numbers hote hain.[ASCII codes]
+eg: H 72
+    e 101
+    l 108
+    o 111 
+How to do: [b"Hello"], ASCII codes dekhne k lie hr index ko alg alg print krwaenge jese loop chlwa den
+
++ Image/files transfer krne k lie use hota ha 
+
+------------------------------bytearray[mutable{changable}]----------------------
+
+------------------------------memoryview[mutable]----------------------
++ optimize 
++ memory me extra space nh leta ha 
+
+================================== String Casting ====================================
++ String.split() [breaks the string into array]
+ Eg: String.split(",") [comma lga dia dya to wo jahan jahan comma aarha ha wahn se break   kr dega, list me ek alg index de dega ]
+ String.split("\n") [Agr paragraphs ko alg alg index me print krwana ha , to \n se jahn jahn line break hogi wahen se split method use split krwa dega or alg index pr print krwa dega ]
+
+
++ String.join() [list me jtne bhi charcters honge usko text me join kedenge]
+
+================================= Control Flow ==================================
+------------------------------------if/else--------------------------
+import random
+
+bobzi_runs = random.randint(0,155)
+balls_faced= 86
+
+if(bobzi_runs > 100 and balls_faced < bobzi_runs ):
+    print("king👑👑")
+else: 
+    print("loser😒")
+
+====================================dict==========================================
+dict[dictionary] is more or less the objects of typescript. but is me dot notation nh use hoti, SquareBracket notation use hoti ha
+
+=================================== List ==========================================
+List ko hm python me change kr skte ha (MUTABLE)
++use SQUARE BRACES
+team = ["ali", "sara" , "qamar"]
+team.pop()
+team.append("aina")
+print(team) //['ali', 'sara', 'aina']
+
+=================================== TUPLE ==========================================
+Tuple ko hm python me change nh kr skte ha (IMMUTABLE)
++ use ROUND BRACES()
+newteam: tuple = ("ali", "sara" , "qamar")
+# newteam.pop()
+# newteam.append("aina")
+print(newteam[2]) //qamar
+
+=================================== Set ==========================================
++Duplicate elemnets ko remove kr deta ha , have unique items
++use CURLY BRACES{}
+eg:name: set = {"ali", "sara" , "qamar" ,"qamar"}
+print(name) 
